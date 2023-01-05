@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender and age detection</title>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            /* background-color: rgb(37, 17, 83); */
+            /* background-color: #4e13cf; */
+            /* The image used */
+            background-image: url("https://wallpaperaccess.com/full/3818622.jpg");
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        form {
+            border: 1px solid green;
+            height: fit-content;
+            width: 600px;
+            margin-top: 10%;
+            padding: 100px 150px;
+            /* background-image: linear-gradient(wheat, white); */
+            -webkit-box-shadow: 0px 19px 18px #302830;
+            -moz-box-shadow: 0px 19px 18px #302830;
+            box-shadow: 0px 19px 18px #302830;
+        }
+
+        b {
+            /* margin: 120px 50px; */
+            border: 1px solid black;
+        }
+
+        button {
+            background-color: rgb(108, 160, 233);
+            height: 40px;
+            width: 100px;
+            -webkit-box-shadow: 0px 10px 18px #302830;
+            -moz-box-shadow: 0px 10px 18px #302830;
+            box-shadow: 0px 10px 18px #302830;
+
+        }
+
+        button:hover {
+            background-color: rgb(110, 270, 333);
+            /* background-image: linear-gradient(wheat, white); */
+
+            transition: 0.3s;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    </style>
+</head>
+
+<body>
+    <div align="center">
+
+        <form action="/start" align="center">
+            <h1>Real Time<br>Transcription</h1><br>
+            <button class="file_submit  btn" type="Submit"><strong>Let's Check</strong></button>
+
+
+            <!-- <input type="Submit" class="file_submit" > -->
+
+            <!-- <p>{{ data }}</p> -->
+
+        </form>
+
+    </div>
+</body>
+
+</html>
